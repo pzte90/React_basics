@@ -1,0 +1,35 @@
+.App{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: minmax(200px, auto) 80%;
+    grid-template-rows: 100px calc(100vh - 200px) 100px;
+    grid-template-areas: 
+    "aside nav" 
+    "aside main" 
+    "aside footer";
+    overflow: hidden;
+}
+
+nav{
+    grid-area: nav;
+    background-color:rgb(0, 0, 0);
+}
+
+aside{
+    grid-area: aside;
+    background-color:rgb(0, 0, 0);
+    overflow: auto;
+}
+
+main{
+    background-color:rgb(0, 0, 0);
+    border: solid grey 1px;
+    overflow: auto;
+}
+
+footer{
+    grid-area: footer;
+    background-color:rgb(0, 0, 0);
+    text-align: center;
+    line-height: 100px;
+}

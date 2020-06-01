@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+ul{
+  list-style: none;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: black orange;
+}
+
+*::-webkit-scrollbar {
+  width: 20px;
+}
+*::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(153, 146, 146);
+}

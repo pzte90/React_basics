@@ -1,0 +1,19 @@
+.productPage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    h1{
+        flex-basis: 100%;
+        padding: 40px;
+        span{
+            color: grey;
+            font-size: 18px;
+        }
+    }
+    h4{
+        margin-bottom: 20px;
+    }
+    li{
+        margin-top: 5px;
+    }
+}
