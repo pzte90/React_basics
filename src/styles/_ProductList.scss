@@ -1,0 +1,27 @@
+.productList{
+    text-align: center;
+    margin: 10px;
+    li{
+        border: solid white 1px;
+        text-align: center;
+        line-height: 50px;
+        margin: 5px;
+        display: flex;
+        a{
+            flex-basis: 80%;
+            display: block;
+            text-decoration: none;
+            color: white;
+            &.active{
+                color:grey;
+            }
+        }
+        button{
+            flex-basis: 20%;
+            background-color:black;
+            border-left: white 1px solid;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    }
+}

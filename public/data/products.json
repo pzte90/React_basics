@@ -1,0 +1,137 @@
+{
+    "products":[
+      {
+        "name":"Produkt1",
+        "type":"Industrial",
+        "firstOperation":{
+          "toolNames":["narzedzie 1","narzedzie 2","narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 3","tool 4","tool 5"]
+        },
+        "secondOperation":{
+          "toolNames":["narzedzie 1","narzedzie 4","narzędzie 5"],
+          "tools":["tool 2","tool 3","tool 5"]
+        },
+        "thirdOperation":{
+          "toolNames":["narzedzie 1","narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 3","tool 4"]
+        }
+      },
+      {
+        "name":"Produkt2",
+        "type":"Pełna",
+        "firstOperation":{
+          "toolNames":["narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 5"]
+        },
+        "secondOperation":{
+          "toolNames":["narzedzie 2","narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 3","tool 4"]
+        },
+        "thirdOperation":{
+          "toolNames":["narzedzie 1","narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 3","tool 5"]
+        }
+      },
+      {
+        "name":"Produkt3",
+        "type":"Wentylowana",
+        "firstOperation":{
+          "toolNames":["narzedzie 1","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 5"]
+        },
+        "secondOperation":{
+          "toolNames":[
+            "narzedzie 1",
+            "narzedzie 3",
+            "narzedzie 4",
+            "narzędzie 5",
+            "narzędzie 5",
+            "narzędzie 5",
+            "narzędzie 5"
+          ],
+          "tools":["tool 1","tool 2","tool 3","tool 5","tool 5","tool 5","tool 5"]
+        },
+        "thirdOperation":{"toolNames":["narzedzie 1"],"tools":["tool 1"]}
+      },
+      {
+        "name":"Produkt4",
+        "type":"Pełna",
+        "firstOperation":{
+          "toolNames":["narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 5"]
+        },
+        "secondOperation":{
+          "toolNames":["narzedzie 2","narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 3","tool 4"]
+        },
+        "thirdOperation":{
+          "toolNames":["narzedzie 1","narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 3","tool 5"]
+        }
+      },
+      {
+        "name":"Produkt5",
+        "type":"Industrial",
+        "firstOperation":{
+          "toolNames":["narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 5"]
+        },
+        "secondOperation":{
+          "toolNames":["narzedzie 2","narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 3","tool 4"]
+        },
+        "thirdOperation":{
+          "toolNames":["narzedzie 1","narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 3","tool 5"]
+        }
+      },
+      {
+        "name":"Produkt6",
+        "type":"Pełna",
+        "firstOperation":{
+          "toolNames":["narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 5"]
+        },
+        "secondOperation":{
+          "toolNames":["narzedzie 2","narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 3","tool 4"]
+        },
+        "thirdOperation":{
+          "toolNames":["narzedzie 1","narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 3","tool 5"]
+        }
+      },
+      {
+        "name":"Produkt7",
+        "type":"Industrial",
+        "firstOperation":{
+          "toolNames":["narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 5"]
+        },
+        "secondOperation":{
+          "toolNames":["narzedzie 2","narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 3","tool 4"]
+        },
+        "thirdOperation":{
+          "toolNames":["narzedzie 1","narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 3","tool 5"]
+        }
+      },
+      {
+        "name":"Produkt8",
+        "type":"Wentylowana",
+        "firstOperation":{
+          "toolNames":["narzedzie 3","narzędzie 5"],
+          "tools":["tool 1","tool 2"]
+        },
+        "secondOperation":{
+          "toolNames":["narzedzie 2","narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 3","tool 4"]
+        },
+        "thirdOperation":{
+          "toolNames":["narzedzie 1","narzedzie 3","narzedzie 4","narzędzie 5"],
+          "tools":["tool 1","tool 2","tool 3","tool 5"]
+        }
+      }
+    ]
+  }

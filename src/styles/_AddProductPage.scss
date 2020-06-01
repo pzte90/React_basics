@@ -1,0 +1,48 @@
+.addProductPage{
+    text-align: center;
+    position: relative;
+    height: 100%;
+    .tools{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .chooseTool{
+        label{
+            display: block;
+        }
+    }
+    .chooseName{
+        label{
+            input{
+                margin: 10px;
+            }
+        }
+    }
+    button{
+        width: 100px;
+        height:20px;
+        font-size:10px;
+        margin-top:50px;
+        cursor:'pointer';
+        &:nth-of-type(1){
+            margin-top: 20px
+        }
+    }
+    .showNewProduct{
+        margin-top: 50px;
+        border-top: solid white 1px;
+        h5{
+            margin: 30px 0 30px 0;
+        }
+        p{
+            color: grey;
+        }
+        button{
+            width: auto;
+        }
+        li{
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.navigation{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    li{
+        width: 200px;
+        height: 50px;
+        border: solid white 1px;
+        text-align: center;
+        line-height: 50px;
+        a{
+            display: block;
+            text-decoration: none;
+            color: white;
+            &.active{
+                color: rgb(70, 70, 70);
+                font-weight: bold;
+            }
+        }
+    }
+}
